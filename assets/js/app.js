@@ -11,3 +11,13 @@ const showMenu = (toggleId, navID) => {
 }
 
 showMenu('nav-toggle', 'nav-menu');
+
+/*Active and remove menu*/
+const navLink = document.querySelectorAll('.nav_link');
+
+function linkAction() {
+    navLink.forEach(n => n.classList.remove('active'));
+    this.classList.add('active');
+}
+
+navLink.forEach(n => n.addEventListener('click', linkAction));
