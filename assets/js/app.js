@@ -26,3 +26,30 @@ function linkAction() {
 
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
+/*Auto write text*/
+
+const iAm = document.getElementById('autoWrite');
+let index = 0;
+
+
+const texts = ['Web Developer    ', 'Gym Addict    ', 'Anime Fan    ', 'Gamer    ']
+
+let wordCounter = 0;
+let text = texts[wordCounter];
+
+
+function writeText() {
+    iAm.innerText = text.slice(0, index);
+    index++;
+
+    if (index > text.length) {
+        index = 1;
+        wordCounter++;
+        text = texts[wordCounter];
+        if (wordCounter > 3) {
+            wordCounter = 0;
+        }
+    }
+}
+
+setInterval(writeText, 150);
