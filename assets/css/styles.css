@@ -342,3 +342,27 @@ img {
 .skills_img{
     border-radius: 0.5rem;
 }
+
+/*Work*/
+.work{
+    text-align: center;
+}
+
+.work_container{
+    row-gap: 2rem;
+}
+
+.work_img{
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.work_img img {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.work_img img:hover{
+    transform: scale(1.2);
+}
