@@ -277,6 +277,9 @@ img {
     border-radius: 0.5rem;
 }
 
+.cv{
+    margin-top: 50px;
+}
 /*Skills*/
 .skills_container{
     row-gap: 2rem;
