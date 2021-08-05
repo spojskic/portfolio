@@ -145,6 +145,11 @@ img {
     user-select: none;
     transition: background 0.3s linear;
 }
+
+.lab .bx{
+    color: white;
+    font-size: 2.5rem;
+}
 #toggle  {
     visibility: hidden;
 }
@@ -155,6 +160,9 @@ body{
 body.dark {
     background-color: #1f1f1f;
     color: white;
+}
+body.dark .lab .bx{
+    color: #1f1f1f;
 }
 body.dark .lab {
     background-color: #fff;
@@ -206,6 +214,10 @@ body.dark .bx {
         width: 35px;
         height: 35px;
     }
+    .lab .bx{
+    color: white;
+    font-size: 2.2rem;
+}
 }
 
 .nav_item{
