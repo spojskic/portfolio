@@ -445,6 +445,12 @@ body.dark .bx {
     margin-left: auto;
 }
 
+.captcha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*Footer*/
 .footer{
     background-color: var(--second-color);
