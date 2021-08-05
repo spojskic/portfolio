@@ -145,7 +145,7 @@ img {
 @media screen and (max-width: 768px){
     .nav_menu{
         position: fixed;
-        top: -3rem;
+        top: 3rem;
         right: -100%;;
         width: 80%;
         height: 100%;
