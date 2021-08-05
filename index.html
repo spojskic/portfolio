@@ -43,7 +43,7 @@
             <h1 class="home_title">Hi, <br>
                 I'm <span class="home_title-color">Safet</span><br> <span id="autoWrite"></span></h1>
 
-            <a href="#" class="button">Contact</a>
+            <a href="#contact" class="button">Contact</a>
         </div>
 
         <div class="home_social">
@@ -173,10 +173,12 @@
     <section class="contact section" id="contact">
         <h2 class="section-title">Contact</h2>
         <div class="contact_container bd-grid">
-            <form name="contact" class="contact_form" data-netlify="true">
+            <form name="contact" class="contact_form" data-netlify="true" data-netlify-recaptcha="true">
                 <input type="text" placeholder="Name" class="contact_input">
                 <input type="mail" placeholder="Email" class="contact_input">
                 <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
+
+                <div data-netlify-recaptcha="true"></div>
 
                 <input type="submit" value="Send" class="contact_button button">
             </form>
