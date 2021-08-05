@@ -86,3 +86,17 @@ sr.reveal('.work_img', { interval: 200 });
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact_input', { interval: 200 });
+
+
+
+
+
+
+
+const toggle = document.getElementById('toggle');
+
+
+toggle.addEventListener('change', (e) => {
+    document.body.classList.toggle('dark', e.target.checked);
+    document.getElementById('head').classList.toggle('dark');
+})
