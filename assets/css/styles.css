@@ -240,7 +240,7 @@ img {
 .home_img{
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 30px;
     width: 255px;
 }
 
@@ -470,7 +470,7 @@ img {
     }
     .home_img{
         width: 475px;
-        bottom: 15%;
+        bottom: 12%;
     }
 
     .about_container, .skills_container {
@@ -499,7 +499,7 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-  .home__img{
-    right: 10%;
+  .home_img{
+    right: 15%;
   }
 }
