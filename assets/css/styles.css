@@ -117,7 +117,7 @@ img {
     display: grid;
     grid-template-columns: 100%;
     grid-column-gap: 2rem;
-    width: calc(100%-2rem);
+    width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
 }
@@ -203,9 +203,8 @@ img {
 }
 
 /*Home*/
-
 .home{
-    height: calc(100vh-3rem);
+    height: calc(100vh - 3rem);
     row-gap: 1rem;
 }
 
@@ -242,7 +241,7 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 255px;
 }
 
 /*Buttons*/
@@ -257,4 +256,23 @@ img {
 
 .button:hover{
     box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+/*About*/
+.about_container{
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.about_subtitle{
+    margin-bottom: var(--mb-2);
+}
+
+.about_img{
+    justify-self: center;
+}
+
+.about_img img{
+    width: 200px;
+    border-radius: 0.5rem;
 }
