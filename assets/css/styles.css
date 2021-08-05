@@ -473,8 +473,33 @@ img {
         bottom: 15%;
     }
 
-    .about_container{
-        
+    .about_container, .skills_container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: initial;
     }
-    
+    .about_img img{
+        width: 300px;
+    }
+    .work_container{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        column-gap: 2rem;
+    }
+    .contact_form{
+        width: 360px;
+    }
+    .contact_container{
+        justify-items: center;
+    }
+}
+
+@media screen and (min-width: 1024px){
+  .bd-grid{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home__img{
+    right: 10%;
+  }
 }
