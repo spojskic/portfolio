@@ -59,7 +59,7 @@ setInterval(writeText, 150);
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '80px',
+    distance: '40px',
     duration: 2000,
     reset: true
 });
@@ -92,7 +92,7 @@ sr.reveal('.contact_input', { interval: 200 });
 
 
 
-
+/*Toggle dark mode*/
 const toggle = document.getElementById('toggle');
 
 
