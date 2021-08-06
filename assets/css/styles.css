@@ -182,6 +182,9 @@ body.dark .home_social-icon{
 body.dark .bx {
     color: white;
 }
+body.dark .home_social-icon .bx:hover {
+    color: var(--first-color);
+}
 
 /*Nav*/
 .nav{
