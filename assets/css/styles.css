@@ -379,6 +379,11 @@ body.dark .bx {
 .skills_names{
     display: flex;
     align-items: center;
+    transition: 0.3s;
+}
+
+.skills_data .skills_names:hover{
+    transform: scale(1.2);
 }
 
 .skills_bar{
@@ -391,7 +396,7 @@ body.dark .bx {
     z-index: var(--z-back);
 }
 
-.skills_html, .skills_css, .skills_javascript, .skills_sql, .skills_bootstrap{
+.skills_html, .skills_css, .skills_javascript, .skills_sql, .skills_bootstrap, .skills_c, .skills_git{
     width: 100%;
 }
  
