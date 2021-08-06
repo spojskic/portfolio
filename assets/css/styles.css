@@ -492,6 +492,13 @@ body.dark .home_social-icon .bx:hover {
     }
 }
 
+@media screen and (max-height: 600px) {
+    .home_img{
+        bottom: 10px;
+        width: 220px;
+    }
+}
+
 @media screen and (min-width: 768px){
     body{
         margin: 0;
