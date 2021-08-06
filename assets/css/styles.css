@@ -391,22 +391,10 @@ body.dark .bx {
     z-index: var(--z-back);
 }
 
-.skills_html{
+.skills_html, .skills_css, .skills_javascript, .skills_sql, .skills_bootstrap{
     width: 100%;
 }
-.skills_css{
-    width: 100%;
-}
-.skills_javascript{
-    width: 100%;
-}
-.skills_sql{
-    width: 100%;
-}
-.skills_oop{
-    width: 100%;
-}
-
+ 
 .skills_img{
     border-radius: 0.5rem;
 }
