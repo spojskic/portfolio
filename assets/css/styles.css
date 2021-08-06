@@ -361,7 +361,7 @@ body.dark .bx {
 
 .skills_data{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
     font-weight: var(--font-semi);
@@ -392,19 +392,19 @@ body.dark .bx {
 }
 
 .skills_html{
-    width: 80%;
+    width: 100%;
 }
 .skills_css{
-    width: 85%;
+    width: 100%;
 }
 .skills_javascript{
-    width: 70%;
+    width: 100%;
 }
 .skills_sql{
-    width: 90%;
+    width: 100%;
 }
 .skills_oop{
-    width: 90%;
+    width: 100%;
 }
 
 .skills_img{
