@@ -1,3 +1,31 @@
+/*Intro animation*/
+const intro = document.querySelector('.intro');
+const logo = document.querySelector('.logo-header');
+const logoSpan = document.querySelectorAll('.logo');
+
+
+window.addEventListener('DOMContentLoaded', () => {
+    logoSpan.forEach((span, idx) => {
+        setTimeout(() => {
+            span.classList.add('active');
+        }, (idx + 1) * 300)
+    })
+
+    setTimeout(() => {
+        logoSpan.forEach((span, idx) => {
+            setTimeout(() => {
+                span.classList.remove('active');
+                span.classList.add('fade');
+            }, (idx + 1) * 100)
+        })
+    }, 1500);
+
+    setTimeout(() => {
+        intro.style.top = '-100vh';
+    }, 1500);
+})
+
+
 /*Show menu*/
 const showMenu = (toggleId, navID) => {
     const toggle = document.getElementById(toggleId);
@@ -11,6 +39,7 @@ const showMenu = (toggleId, navID) => {
 }
 
 showMenu('nav-toggle', 'nav-menu');
+
 
 /*Active and remove menu*/
 const navLink = document.querySelectorAll('.nav_link');
@@ -27,16 +56,13 @@ function linkAction() {
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
 /*Auto write text*/
-
 const iAm = document.getElementById('autoWrite');
 let index = 0;
-
 
 const texts = ['Web Developer    ', 'Gym Addict    ', 'Anime Fan    ', 'Gamer    ']
 
 let wordCounter = 0;
 let text = texts[wordCounter];
-
 
 function writeText() {
     iAm.innerText = text.slice(0, index);
@@ -64,6 +90,7 @@ const sr = ScrollReveal({
     reset: true
 });
 
+
 /*SCROLL HOME*/
 sr.reveal('.home_title', {});
 sr.reveal('.button', { delay: 200 });
@@ -88,10 +115,6 @@ sr.reveal('.work_img', { interval: 200 });
 sr.reveal('.contact_input', { interval: 200 });
 
 
-
-
-
-
 /*Toggle dark mode*/
 const toggle = document.getElementById('toggle');
 
@@ -100,3 +123,5 @@ toggle.addEventListener('change', (e) => {
     document.body.classList.toggle('dark', e.target.checked);
     document.getElementById('head').classList.toggle('dark');
 })
+
+
