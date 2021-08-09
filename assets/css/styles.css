@@ -145,7 +145,7 @@ img {
     height: 100vh;
     background-color: #1f1f1f;
     transition: 0.7s;
-    z-index: var(--z-fixed);
+    z-index: 101;
 }
 
 .logo-header{
