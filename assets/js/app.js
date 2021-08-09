@@ -3,7 +3,7 @@ const intro = document.querySelector(".intro");
 const logo = document.querySelector(".logo-header");
 const logoSpan = document.querySelectorAll(".logo");
 
-window.addEventListener("load", () => {
+window.addEventListener("readystatechange", () => {
   logoSpan.forEach((span, idx) => {
     setTimeout(() => {
       span.classList.add("active");
