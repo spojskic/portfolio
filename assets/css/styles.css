@@ -161,7 +161,7 @@ img {
   font-size: 1.5rem;
 }
 
-.logo.active {
+.logo.appear {
   bottom: 0;
   opacity: 1;
   transition: ease-in-out 0.5s;

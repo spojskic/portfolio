@@ -6,14 +6,14 @@ const logoSpan = document.querySelectorAll(".logo");
 window.addEventListener("DOMContentLoaded", () => {
   logoSpan.forEach((span, idx) => {
     setTimeout(() => {
-      span.classList.add("active");
+      span.classList.add("appear");
     }, (idx + 1) * 90);
   });
 
   setTimeout(() => {
     logoSpan.forEach((span, idx) => {
       setTimeout(() => {
-        span.classList.remove("active");
+        span.classList.remove("appear");
         span.classList.add("fade");
       }, (idx + 1) * 80);
     });
