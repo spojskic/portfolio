@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+:root {
+  scrollbar-color: rgb(207, 27, 27) rgb(20, 25, 27) !important;
+  scrollbar-width: thin !important;
+}
 
 /*Variables*/
 :root {
@@ -61,6 +65,17 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--second-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--first-color);
 }
 
 h1,
