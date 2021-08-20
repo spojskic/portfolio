@@ -74,7 +74,7 @@ function writeText() {
     index = 1;
     wordCounter++;
     text = texts[wordCounter];
-    if (wordCounter === 3) {
+    if (wordCounter === 4) {
       wordCounter = 0;
       text = texts[wordCounter];
     }
