@@ -481,6 +481,7 @@ body.dark .home_social-icon .bx:hover {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  max-height: 180px;
 }
 
 .work_img img {
