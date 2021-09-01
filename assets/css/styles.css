@@ -465,10 +465,6 @@ body.dark .home_social-icon .bx:hover {
   width: 100%;
 }
 
-.skills_img {
-  border-radius: 0.5rem;
-}
-
 /*Work*/
 .work {
   text-align: center;
@@ -624,6 +620,7 @@ body.dark .home_social-icon .bx:hover {
     align-items: center;
     text-align: initial;
   }
+
   .about_img img {
     width: 300px;
   }
