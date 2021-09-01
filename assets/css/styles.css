@@ -460,7 +460,8 @@ body.dark .home_social-icon .bx:hover {
 .skills_sql,
 .skills_bootstrap,
 .skills_c,
-.skills_git {
+.skills_git,
+.skills_react {
   width: 100%;
 }
 
