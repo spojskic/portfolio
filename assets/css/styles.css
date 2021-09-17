@@ -225,8 +225,9 @@ body.dark .lab {
 body.dark .nav_link {
   color: white;
 }
-body.dark .nav_logo {
-  color: white;
+body.dark .nav_logo img {
+  filter: invert(87%) sepia(55%) saturate(6910%) hue-rotate(180deg)
+    brightness(106%) contrast(148%);
 }
 body.dark .l-header {
   background-color: #1f1f1f;
@@ -299,8 +300,8 @@ body.dark .home_social-icon .bx:hover {
   top: 2rem;
   background-color: var(--first-color);
 }
-.nav_logo {
-  color: var(--second-color);
+.nav_logo img {
+  width: 45px;
 }
 .nav_toggle {
   color: var(--second-color);
@@ -554,6 +555,12 @@ body.dark .home_social-icon .bx:hover {
   .home_img {
     bottom: 10px;
     width: 200px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .nav_logo img {
+    width: 35px;
   }
 }
 
