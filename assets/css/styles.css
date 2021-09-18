@@ -243,6 +243,9 @@ body.dark .home_social-icon .bx:hover {
 }
 
 /*Nav*/
+header {
+  transition: background 0.3s linear, color 0.3s linear;
+}
 .nav {
   height: 3rem;
   display: flex;
