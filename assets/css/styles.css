@@ -458,14 +458,7 @@ header {
   z-index: var(--z-back);
 }
 
-.skills_html,
-.skills_css,
-.skills_javascript,
-.skills_sql,
-.skills_bootstrap,
-.skills_c,
-.skills_git,
-.skills_react {
+.skills_ {
   width: 100%;
 }
 
