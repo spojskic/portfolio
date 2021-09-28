@@ -225,8 +225,9 @@ body.dark .lab {
 body.dark .nav_link {
   color: white;
 }
-body.dark .nav_logo {
-  color: white;
+body.dark .nav_logo img {
+  filter: invert(87%) sepia(55%) saturate(6910%) hue-rotate(180deg)
+    brightness(106%) contrast(148%);
 }
 body.dark .l-header {
   background-color: #1f1f1f;
@@ -242,6 +243,9 @@ body.dark .home_social-icon .bx:hover {
 }
 
 /*Nav*/
+header {
+  transition: background 0.3s linear, color 0.3s linear;
+}
 .nav {
   height: 3rem;
   display: flex;
@@ -299,8 +303,8 @@ body.dark .home_social-icon .bx:hover {
   top: 2rem;
   background-color: var(--first-color);
 }
-.nav_logo {
-  color: var(--second-color);
+.nav_logo img {
+  width: 45px;
 }
 .nav_toggle {
   color: var(--second-color);
@@ -454,18 +458,8 @@ body.dark .home_social-icon .bx:hover {
   z-index: var(--z-back);
 }
 
-.skills_html,
-.skills_css,
-.skills_javascript,
-.skills_sql,
-.skills_bootstrap,
-.skills_c,
-.skills_git {
+.skills_ {
   width: 100%;
-}
-
-.skills_img {
-  border-radius: 0.5rem;
 }
 
 /*Work*/
@@ -560,6 +554,12 @@ body.dark .home_social-icon .bx:hover {
   }
 }
 
+@media screen and (max-width: 550px) {
+  .nav_logo img {
+    width: 35px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -623,6 +623,7 @@ body.dark .home_social-icon .bx:hover {
     align-items: center;
     text-align: initial;
   }
+
   .about_img img {
     width: 300px;
   }
