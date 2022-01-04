@@ -242,6 +242,15 @@ body.dark .home_social-icon .bx:hover {
   color: var(--first-color);
 }
 
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
 /*Nav*/
 header {
   transition: background 0.3s linear, color 0.3s linear;
@@ -329,6 +338,10 @@ header {
 }
 
 /*Home*/
+.l-main {
+  z-index: 100000;
+}
+
 .home {
   height: calc(100vh - 3rem);
   row-gap: 1rem;
