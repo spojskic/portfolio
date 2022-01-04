@@ -53,35 +53,20 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*Auto write text*/
-const iAm = document.getElementById("autoWrite");
-let index = 0;
 
-const texts = [
-  "Web Developer    ",
-  "Gym Addict    ",
-  "Anime Fan    ",
-  "Gamer    ",
-];
+var app = document.getElementById("autoWrite");
 
-let wordCounter = 0;
-let text = texts[wordCounter];
-
-function writeText() {
-  iAm.innerText = text.slice(0, index);
-  index++;
-
-  if (index > text.length) {
-    index = 1;
-    wordCounter++;
-    text = texts[wordCounter];
-    if (wordCounter === 4) {
-      wordCounter = 0;
-      text = texts[wordCounter];
-    }
-  }
-}
-
-setInterval(writeText, 150);
+var typewriter = new Typewriter(app, {
+  strings: [
+    "React.js Developer",
+    ".Net Developer",
+    "Gym Addict",
+    "Anime Fan",
+    "Overwatch Player",
+  ],
+  loop: true,
+  autoStart: true,
+});
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
@@ -115,9 +100,11 @@ sr.reveal(".work_img", { interval: 200 });
 sr.reveal(".contact_input", { interval: 200 });
 
 /*Toggle dark mode*/
-const toggle = document.getElementById("toggle");
+const toggleDarkMode = document.getElementById("toggle");
 
-toggle.addEventListener("change", (e) => {
-  document.body.classList.toggle("dark", e.target.checked);
+toggleDarkMode.addEventListener("change", () => {
+  document.body.classList.toggle("dark");
   document.getElementById("head").classList.toggle("dark");
 });
+document.body.classList.toggle("dark");
+document.getElementById("head").classList.toggle("dark");
