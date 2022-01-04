@@ -105,13 +105,6 @@ const toggleDarkMode = document.getElementById("toggle");
 toggleDarkMode.addEventListener("change", () => {
   document.body.classList.toggle("dark");
   document.getElementById("head").classList.toggle("dark");
-
-  /*Depending on dark mode or light mode use different colors for particles*/
-  if (toggleDarkMode.checked) {
-    particlesJS.load("particles-js", "assets/particlesLight.json");
-  } else {
-    particlesJS.load("particles-js", "assets/particles.json");
-  }
 });
 document.body.classList.toggle("dark");
 document.getElementById("head").classList.toggle("dark");
