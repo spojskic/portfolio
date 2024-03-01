@@ -27,7 +27,42 @@ export const metadata: Metadata = {
         title: 'Safet Pojskic',
         description: 'Welcome to my personal portfolio!',
         images: [{ url: '/mainpage.png', alt: 'Safet Pojskic' }]
-    }
+    },
+    icons: [
+        {
+            rel: 'icon',
+            type: 'image/png',
+            sizes: '192x192',
+            url: '/favicon/android-chrome-192x192.png'
+        },
+        {
+            rel: 'icon',
+            type: 'image/png',
+            sizes: '512x512',
+            url: '/favicon/android-chrome-512x512.png'
+        },
+        {
+            rel: 'apple-touch-icon',
+            url: '/favicon/apple-touch-icon.png'
+        },
+        {
+            rel: 'icon',
+            type: 'image/x-icon',
+            url: '/favicon/favicon.ico'
+        },
+        {
+            rel: 'icon',
+            type: 'image/png',
+            sizes: '16x16',
+            url: '/favicon/favicon-16x16.png'
+        },
+        {
+            rel: 'icon',
+            type: 'image/png',
+            sizes: '32x32',
+            url: '/favicon/favicon-32x32.png'
+        }
+    ]
 };
 
 export default function RootLayout({
