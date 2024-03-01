@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         site: '@safetpojskic',
         title: 'Safet Pojskic',
         description: 'Welcome to my personal portfolio!',
-        images: [{ url: '/mainpage.png', alt: 'Safet Pojskic' }]
+        images: [{ url: 'https://safetpojskic.com/mainpage.png', alt: 'Safet Pojskic' }]
     },
     icons: [
         {
