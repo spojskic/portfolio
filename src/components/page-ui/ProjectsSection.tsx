@@ -18,32 +18,27 @@ const products = [
         thumbnail: '/projects/next-event.png'
     },
     {
-        title: 'Portfolio V1',
-        link: 'https://safetpojskic.netlify.app/',
-        thumbnail: '/projects/old-portfolio.png'
-    },
-
-    {
-        title: 'Dresscode',
-        link: '',
-        thumbnail: '/projects/dresscode.png'
-    },
-    {
         title: 'Devspace',
         link: 'https://github.com/spojskic/next-devspace-blog',
         thumbnail: '/projects/devspace.png'
     },
+
     {
         title: 'Google Clone',
         link: 'https://github.com/MagicPojska/gulululgl-search-clone',
         thumbnail: '/projects/google-clone.png'
     },
-
     {
-        title: 'Artemis',
-        link: '',
-        thumbnail: '/projects/artemis.png'
+        title: 'Portfolio V1',
+        link: 'https://safetpojskic.netlify.app/',
+        thumbnail: '/projects/old-portfolio.png'
     },
+    {
+        title: 'Dresscode',
+        link: '',
+        thumbnail: '/projects/dresscode.png'
+    },
+
     {
         title: 'Portfolio V2',
         link: 'https://safetpojskic.com',
@@ -53,5 +48,10 @@ const products = [
         title: 'Music App',
         link: 'https://github.com/spojskic/my-music-app',
         thumbnail: '/projects/music-app.png'
+    },
+    {
+        title: 'Artemis',
+        link: '',
+        thumbnail: '/projects/artemis.png'
     }
 ];
