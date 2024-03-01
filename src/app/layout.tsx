@@ -1,5 +1,6 @@
 import '@/lib/globals.css';
 
+import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 import { Space_Grotesk } from 'next/font/google';
@@ -73,6 +74,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={spaceGrotesk.className}>
+                <Analytics />
                 <SpeedInsights />
                 <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
                     {children}
