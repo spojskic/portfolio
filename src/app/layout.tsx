@@ -11,7 +11,23 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: 'Safet Pojskic',
-    description: 'Welcome to my personal portfolio!'
+    description: 'Welcome to my personal portfolio!',
+    applicationName: 'Safet Pojskic',
+    keywords: ['Safet Pojskic', 'portfolio', 'personal', 'website', 'developer', 'designer', 'engineer', 'software', 'engineer'],
+    openGraph: {
+        siteName: 'Safet Pojskic',
+        title: 'Safet Pojskic',
+        description: 'Welcome to my personal portfolio!',
+        type: 'website',
+        images: [{ url: '/mainpage.png', alt: 'Safet Pojskic' }]
+    },
+    twitter: {
+        card: 'summary_large_image',
+        site: '@safetpojskic',
+        title: 'Safet Pojskic',
+        description: 'Welcome to my personal portfolio!',
+        images: [{ url: '/mainpage.png', alt: 'Safet Pojskic' }]
+    }
 };
 
 export default function RootLayout({

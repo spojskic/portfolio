@@ -36,7 +36,7 @@ export const MenuItem = ({
                             <motion.div
                                 transition={transition}
                                 layoutId="active" // layoutId ensures smooth animation
-                                className="overflow-hidden rounded-2xl border border-black/[0.2] bg-white shadow-xl backdrop-blur-sm dark:border-white/[0.2] dark:bg-black"
+                                className="overflow-hidden rounded-2xl border border-black/[0.2] bg-white shadow-xl  dark:border-white/[0.2] dark:bg-black"
                             >
                                 <motion.div
                                     layout // layout ensures smooth animation
@@ -57,7 +57,7 @@ export const Menu = ({ setActive, children }: { setActive: (item: string | null)
     return (
         <nav
             onMouseLeave={() => setActive(null)} // resets the state
-            className="boder relative flex items-center justify-center space-x-4 rounded-full border-transparent bg-white px-8 py-3 shadow-input dark:border-white/[0.2] dark:bg-black "
+            className="boder relative flex items-center justify-center space-x-4 rounded-full border border-black/[0.2] bg-white px-8 py-3 shadow-input dark:border-white/[0.2] dark:bg-black "
         >
             {children}
         </nav>
