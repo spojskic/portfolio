@@ -14,11 +14,9 @@ export function ExperienceSection() {
                 <div className="relative mx-auto max-w-2xl pb-32 pt-4 text-white antialiased">
                     {dummyContent.map((item, index) => (
                         <div key={`content-${index}`} className="mb-10">
-                            <h2 className="mb-4 w-fit rounded-full px-4 py-1 text-sm text-black dark:text-white">{item.badge}</h2>
-
-                            <p className={twMerge('text-xl mb-4 text-black dark:text-white')}>{item.title}</p>
-
-                            <div className="prose prose-sm dark:prose-invert text-sm text-black dark:text-white">{item.description}</div>
+                            <h2 className={twMerge('text-xl text-black dark:text-white')}>{item.title}</h2>
+                            <span className="w-fit rounded-full py-1 text-sm italic text-neutral-800 dark:text-neutral-200">{item.badge}</span>
+                            <div className="prose prose-sm dark:prose-invert mt-2 text-sm text-black dark:text-white">{item.description}</div>
                         </div>
                     ))}
                 </div>
@@ -56,7 +54,7 @@ const dummyContent = [
                 <li>Volunteered in web development team creating fls.ba info website</li>
             </ul>
         ),
-        badge: 'Junior -> Senior -> Alumni/Sep. 2021 – Present'
+        badge: 'Junior -> Senior -> Alumni/Sep 2021 – Present'
     },
     {
         title: 'Atlantbh',
