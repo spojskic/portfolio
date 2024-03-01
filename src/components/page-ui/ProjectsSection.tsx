@@ -19,7 +19,7 @@ const products = [
     },
     {
         title: 'Portfolio V1',
-        link: 'https://github.com/spojskic/portfolio',
+        link: 'https://safetpojskic.netlify.app/',
         thumbnail: '/projects/old-portfolio.png'
     },
 

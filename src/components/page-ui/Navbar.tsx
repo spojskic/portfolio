@@ -40,7 +40,7 @@ function NavbarComponent({ className }: { className?: string }) {
                             <TwitterLogoIcon className="mr-1" />
                             X/Twitter
                         </HoveredLink>
-                        <HoveredLink href="/team">
+                        <HoveredLink href="https://safetpojskic.netlify.app/">
                             <VercelLogoIcon className="mr-1" /> Old Portfolio
                         </HoveredLink>
                     </div>
