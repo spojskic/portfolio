@@ -19,15 +19,13 @@ export const metadata: Metadata = {
         siteName: 'Safet Pojskic',
         title: 'Safet Pojskic',
         description: 'Welcome to my personal portfolio!',
-        type: 'website',
-        images: [{ url: '/opengraph-image.png', alt: 'Safet Pojskic' }]
+        type: 'website'
     },
     twitter: {
         card: 'summary_large_image',
         site: '@safetpojskic',
         title: 'Safet Pojskic',
-        description: 'Welcome to my personal portfolio!',
-        images: [{ url: '/opengraph-image.png', alt: 'Safet Pojskic' }]
+        description: 'Welcome to my personal portfolio!'
     },
     icons: [
         {
