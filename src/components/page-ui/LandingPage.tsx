@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 
-import { BackgroundBeams } from '@/components/ui/background-beams';
 import { Button } from '@/components/ui/button';
 import { TypewriterEffectSmooth } from '@/components/ui/typewriter-effect';
 
@@ -39,7 +38,6 @@ export function LandingPage() {
                     <Button variant="secondary">Contact Me</Button>
                 </Link>
             </div>
-            <BackgroundBeams />
         </div>
     );
 }
