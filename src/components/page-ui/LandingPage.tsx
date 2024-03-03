@@ -39,7 +39,7 @@ export function LandingPage() {
                     <Button variant="secondary">Contact Me</Button>
                 </Link>
             </div>
-            <BackgroundBeams className="hidden md:flex" />
+            <BackgroundBeams />
         </div>
     );
 }
