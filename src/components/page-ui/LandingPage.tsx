@@ -14,7 +14,7 @@ const words = [
         text: 'and'
     },
     {
-        text: 'React/Next.js,'
+        text: 'React/Next.js'
     },
     {
         text: 'developer',
@@ -28,7 +28,7 @@ export function LandingPage() {
             id="landing-page"
             className="bg- relative flex  h-screen w-full flex-col items-center justify-center bg-white bg-dot-black/[0.2] dark:bg-black dark:bg-dot-white/[0.2]"
         >
-            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)] dark:bg-black"></div>
+            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)] dark:bg-black" />
             <p className="text-xs text-neutral-600 dark:text-neutral-200 sm:text-base  "> Hello, I&apos;m Safet. A passionate Software Engineer.</p>
             <TypewriterEffectSmooth words={words} />
             <div className="z-30 flex flex-col items-center space-x-0 space-y-4 md:flex-row md:space-x-4 md:space-y-0">
