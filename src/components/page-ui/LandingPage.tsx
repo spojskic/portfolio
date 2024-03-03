@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 
+import { BackgroundBeams } from '@/components/ui/background-beams';
 import { Button } from '@/components/ui/button';
 import { TypewriterEffectSmooth } from '@/components/ui/typewriter-effect';
 
@@ -13,7 +14,7 @@ const words = [
         text: 'and'
     },
     {
-        text: 'React/Next.js,'
+        text: 'React/Next.js'
     },
     {
         text: 'developer',
@@ -25,7 +26,7 @@ export function LandingPage() {
     return (
         <div
             id="landing-page"
-            className="bg- relative flex  h-screen w-full flex-col items-center justify-center bg-white bg-dot-black/[0.2] dark:bg-black dark:bg-dot-white/[0.2]"
+            className="bg- relative flex  h-screen w-full flex-col items-center justify-center bg-white antialiased bg-dot-black/[0.2] dark:bg-black dark:bg-dot-white/[0.2]"
         >
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)] dark:bg-black"></div>
             <p className="text-xs text-neutral-600 dark:text-neutral-200 sm:text-base  "> Hello, I&apos;m Safet. A passionate Software Engineer.</p>
@@ -38,6 +39,7 @@ export function LandingPage() {
                     <Button variant="secondary">Contact Me</Button>
                 </Link>
             </div>
+            <BackgroundBeams />
         </div>
     );
 }
