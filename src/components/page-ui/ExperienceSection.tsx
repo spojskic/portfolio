@@ -27,6 +27,15 @@ export function ExperienceSection() {
 
 const experience = [
     {
+        title: 'HTEC d.o.o',
+        description: (
+            <ul className="list-disc">
+                <li>Developed a canvas-based note taking application using React and Next.js.</li>
+            </ul>
+        ),
+        badge: 'Software Engineer/May 2025 - Present'
+    },
+    {
         title: 'Pickleball.com',
         description: (
             <ul className="list-disc">
@@ -37,7 +46,7 @@ const experience = [
                 </li>
             </ul>
         ),
-        badge: 'Software Engineer/Jan 2024 - Present'
+        badge: 'Software Engineer/Jan 2024 - May 2025'
     },
     {
         title: 'Bosnia and Herzegovina Futures Foundation',

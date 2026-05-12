@@ -96,6 +96,12 @@ export function ContactMeForm() {
                     <Button type="submit" disabled={form.formState.isSubmitting}>
                         Submit
                     </Button>
+                    <p className="text-sm text-muted-foreground">
+                        Or contact me directly at{' '}
+                        <a href="mailto:pm@safetpojskic.com" className="underline hover:text-foreground transition-colors">
+                            pm@safetpojskic.com
+                        </a>
+                    </p>
                 </form>
             </Form>
         </div>
