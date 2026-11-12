@@ -3,7 +3,6 @@ import { ExperienceSection } from '@/components/page-ui/ExperienceSection';
 import { LandingPage } from '@/components/page-ui/LandingPage';
 import { ProjectsSection } from '@/components/page-ui/ProjectsSection';
 import { SkillsSection } from '@/components/page-ui/SkillsSection';
-import { TraktHistory } from '@/components/page-ui/TraktHistory';
 
 export default function Home() {
     return (
@@ -12,7 +11,6 @@ export default function Home() {
             <ExperienceSection />
             <SkillsSection />
             <ProjectsSection />
-            <TraktHistory />
             <ContactMeForm />
         </main>
     );
