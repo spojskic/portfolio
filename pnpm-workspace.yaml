@@ -1,0 +1,5 @@
+allowBuilds:
+  '@tsparticles/engine': false
+  esbuild: true
+  unrs-resolver: false
+  workerd: true

@@ -36,3 +36,9 @@ yarn-error.log*
 next-env.d.ts
 
 .idea
+
+# cloudflare
+/.open-next/
+/.wrangler/
+.dev.vars*
+cloudflare-env.d.ts
