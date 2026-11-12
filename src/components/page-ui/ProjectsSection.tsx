@@ -30,7 +30,7 @@ const products = [
     },
     {
         title: 'Portfolio V1',
-        link: 'https://safetpojskic.netlify.app/',
+        link: 'https://old-v0.safetpojskic.com/',
         thumbnail: '/projects/old-portfolio.png'
     },
     {
